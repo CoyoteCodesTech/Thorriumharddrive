@@ -11,7 +11,6 @@ def numlist():
       print()
       print("This program looped",times_run,"times!")
       integer = 500
-      break
     elif integer != 500:
       times_run += 1
 numlist() 
