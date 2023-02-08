@@ -11,8 +11,8 @@ try:
     assert (
         len(str(goalNum)) >= 3
     ), "ValueError: type int() has less than three (3) digits."
-except AssertionError as e:
-    print(e)
+except AssertionError as err:
+    print(err)
     quit()
 
 
